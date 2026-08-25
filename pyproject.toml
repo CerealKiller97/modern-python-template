@@ -1,0 +1,33 @@
+[project]
+name = "template"
+authors = ["Stefan Bogdanović <stefan@stefanbogdanovic.dev>"]
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    
+]
+
+[dependency-groups]
+dev = [
+    "poethepoet>=0.48.0",
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "ruff>=0.11.3",
+    "ty>=0.0.74",
+]
+
+[tool.ty.environment]
+python-version = "3.14"
+
+[tool.poe.tasks]
+fmt = "ruff format ."
+lint = "ruff check --fix ."
+type-check = "ty check ."
+
+[tool.poe.tasks.test]
+cmd = "pytest -v -s --cov=src --cov-report=term-missing"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
