@@ -1,8 +1,8 @@
 [project]
-name = "template"
+name = "modern-python-template"
 authors = ["Stefan Bogdanović <stefan@stefanbogdanovic.dev>"]
 version = "0.1.0"
-description = "Add your description here"
+description = "A modern Python project template built on the Astral stack (uv, ruff, ty)"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
