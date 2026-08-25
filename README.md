@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Modern Python Template — uv, ruff, ty, poe" width="100%">
+</p>
+
 # Modern Python Template
 
 A batteries-included Python project template built on the **Astral stack** — [uv](https://github.com/astral-sh/uv) for packaging, [ruff](https://github.com/astral-sh/ruff) for linting and formatting, and [ty](https://github.com/astral-sh/ty) for type checking — wired together with [Poe the Poet](https://github.com/nat-n/poethepoet) as the task runner.
@@ -20,6 +24,12 @@ No `pip`, no `poetry`, no juggling `flake8` + `black` + `isort` + `mypy` configs
 | Formatting | [ruff format](https://docs.astral.sh/ruff/formatter/) | black |
 | Type checking | [ty](https://github.com/astral-sh/ty) | mypy |
 | Task running | [poethepoet](https://poethepoet.natn.io/) | make, tox |
+
+## Using this as a base
+
+This repo intentionally stops at the toolchain: `uv`, `ruff`, `ty`, and `poe`, plus CI wired to enforce them. It's not a framework — it's the floor every project should start from, so the lint/format/type-check/test standard is never negotiated per-project.
+
+Fork or use as a template repo, then layer in whatever the project actually needs — e.g. [FastAPI](https://fastapi.tiangolo.com/) for the API layer and [Dynaconf](https://www.dynaconf.com/) for settings. The `poe` tasks, ruff rules, and `ty` config carry over unchanged; you're only ever adding `dependencies`, not re-deciding how code quality is enforced.
 
 ## Getting started
 

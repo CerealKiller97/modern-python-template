@@ -1,0 +1,61 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Modern Python Template — uv, ruff, ty, poe">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="82%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#spot)"/>
+
+  <!-- subtle dot grid -->
+  <g fill="#ffffff" opacity="0.06">
+    <circle cx="60" cy="40" r="2"/><circle cx="100" cy="40" r="2"/><circle cx="140" cy="40" r="2"/>
+    <circle cx="60" cy="80" r="2"/><circle cx="100" cy="80" r="2"/><circle cx="140" cy="80" r="2"/>
+    <circle cx="60" cy="120" r="2"/><circle cx="100" cy="120" r="2"/><circle cx="140" cy="120" r="2"/>
+    <circle cx="1060" cy="220" r="2"/><circle cx="1100" cy="220" r="2"/><circle cx="1140" cy="220" r="2"/>
+    <circle cx="1060" cy="260" r="2"/><circle cx="1100" cy="260" r="2"/><circle cx="1140" cy="260" r="2"/>
+  </g>
+
+  <!-- lightning bolt mark -->
+  <g transform="translate(70,95)">
+    <path d="M62 0 L14 68 H46 L34 120 L92 46 H58 Z" fill="url(#glow)"/>
+  </g>
+
+  <text x="150" y="128" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">
+    Modern Python Template
+  </text>
+  <text x="150" y="168" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    The Astral stack, wired up once so you never wire it up again.
+  </text>
+
+  <!-- tool chips -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600">
+    <g transform="translate(150,205)">
+      <rect width="70" height="36" rx="18" fill="#facc15" opacity="0.15" stroke="#facc15" stroke-opacity="0.5"/>
+      <text x="35" y="24" text-anchor="middle" fill="#fde68a">uv</text>
+    </g>
+    <g transform="translate(232,205)">
+      <rect width="90" height="36" rx="18" fill="#38bdf8" opacity="0.15" stroke="#38bdf8" stroke-opacity="0.5"/>
+      <text x="45" y="24" text-anchor="middle" fill="#bae6fd">ruff</text>
+    </g>
+    <g transform="translate(334,205)">
+      <rect width="70" height="36" rx="18" fill="#a78bfa" opacity="0.18" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="35" y="24" text-anchor="middle" fill="#ddd6fe">ty</text>
+    </g>
+    <g transform="translate(416,205)">
+      <rect width="90" height="36" rx="18" fill="#34d399" opacity="0.15" stroke="#34d399" stroke-opacity="0.5"/>
+      <text x="45" y="24" text-anchor="middle" fill="#a7f3d0">poe</text>
+    </g>
+  </g>
+</svg>
