@@ -9,6 +9,7 @@ A batteries-included Python project template built on the **Astral stack** — [
 [![Lint](https://github.com/CerealKiller97/modern-python-template/actions/workflows/lint.yml/badge.svg)](https://github.com/CerealKiller97/modern-python-template/actions/workflows/lint.yml)
 [![Tests](https://github.com/CerealKiller97/modern-python-template/actions/workflows/test.yml/badge.svg)](https://github.com/CerealKiller97/modern-python-template/actions/workflows/test.yml)
 [![Type checking](https://github.com/CerealKiller97/modern-python-template/actions/workflows/type-coverage.yml/badge.svg)](https://github.com/CerealKiller97/modern-python-template/actions/workflows/type-coverage.yml)
+[![codecov](https://codecov.io/gh/CerealKiller97/modern-python-template/graph/badge.svg)](https://codecov.io/gh/CerealKiller97/modern-python-template)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue)](https://www.python.org/downloads/)
